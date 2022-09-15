@@ -9,6 +9,7 @@
   z-index: 101;
   border-radius: 5px;
   transition: all 0.3s ease;
+  transform: translateX(100%);
 }
 .style-switcher .s-icon {
   position: absolute;
@@ -24,6 +25,9 @@
   cursor: pointer;
   transition: all 0.3s ease;
   border-radius: 50%;
+}
+.style-switcher.open {
+  transform: translateX(-25px);
 }
 .style-switcher .s-icon i {
   line-height: 40px;

@@ -12,9 +12,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
+    <!-- === style switcher ==== -->
+    <link rel="stylesheet" href="/css/skins/color-1.css" class="alternate-style" title="color-1" disabled />
+    <link rel="stylesheet" href="/css/skins/color-2.css" class="alternate-style" title="color-2" disabled />
+    <link rel="stylesheet" href="/css/skins/color-3.css" class="alternate-style" title="color-3" disabled />
+    <link rel="stylesheet" href="/css/skins/color-4.css" class="alternate-style" title="color-4" disabled />
+    <link rel="stylesheet" href="/css/skins/color-5.css" class="alternate-style" title="color-5" disabled />
+
     <link rel="stylesheet" href="css/style-switcher.css">
   </head>
-  <body>
+  <body >
     <!-- ===== Main Container Start ===== -->
     <div class="main-container">
       <!-- === Aside Start ==== -->
@@ -27,19 +34,19 @@
         </div>
         <ul class="nav">
           <li>
-            <a href="#" class="active"><i class="fa fa-home"></i>Home</a>
+            <a href="#home" class="active"><i class="fa fa-home"></i>Home</a>
           </li>
           <li>
-            <a href="#" class=""><i class="fa fa-user"></i>About</a>
+            <a href="#about" class=""><i class="fa fa-user"></i>About</a>
           </li>
           <li>
-            <a href="#" class=""><i class="fa fa-list"></i>Service</a>
+            <a href="#services" class=""><i class="fa fa-list"></i>Service</a>
           </li>
           <li>
-            <a href="#" class=""><i class="fa fa-briefcase"></i>Portfolio</a>
+            <a href="#portfolio" class=""><i class="fa fa-briefcase"></i>Portfolio</a>
           </li>
           <li>
-            <a href="#" class=""><i class="fa fa-comments"></i>Contact</a>
+            <a href="#contact" class=""><i class="fa fa-comments"></i>Contact</a>
           </li>
         </ul>
       </div>
@@ -47,7 +54,7 @@
       <!-- ==== Main Content Start ==== -->
       <div class="main-content">
         <!-- === Home section Start -->
-        <section class="home section ">
+        <section class="home section" id="home">
           <div class="container">
             <div class="row">
               <div class="home-info padd-15">
@@ -73,7 +80,7 @@
         <!-- ==== Home Section End ===== -->
         <!-- ==== About Section Start ===== -->
 
-        <div class="about section ">
+        <div class="about section" id="about">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -292,7 +299,7 @@
 
         <!-- === Service section Start -->
 
-        <section class="service section ">
+        <section class="service section" id="services">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -386,7 +393,7 @@
         <!-- === Service section End -->
 
         <!-- === portfolio section Start -->
-        <section class="portfolio section ">
+        <section class="portfolio section" id="portfolio">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -459,7 +466,7 @@
         <!-- === portfolio section end -->
 
         <!-- === contact section Start -->
-        <section class="contact section">
+        <section class="contact section" id="contact">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -571,7 +578,7 @@
         <i class="fas fa-cog fa-spin"></i>
       </div>
       <div class="day-night s-icon">
-        <i class="fas fa-moon"></i>
+        <i class="fas "></i>
       </div>
       <h4>Theme Colors</h4>
       <div class="colors">
@@ -585,6 +592,8 @@
     <!-- ===== Style Switcher end -->
 
     <!-- ======= js files ===== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
   </body>
 </html>
